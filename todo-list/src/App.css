@@ -4,3 +4,139 @@
   padding: 2rem;
   text-align: center;
 }
+button:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scaleX(1.1);
+    background-color: brown;
+}
+.App {
+    width: 30em;
+    height: 40em;
+    border-radius: 0.2em;
+    box-shadow: 10px 5px 10px teal;
+    background-color: navajowhite;
+    padding-top: 0.1em;
+}
+    .App h2 {
+        background-color: teal;
+        width: 90%;
+        margin-left: 1em;
+        border-radius: 0.2em;
+        box-shadow: 5px 2px 5px black;
+        color: black;
+    }
+
+.input-container {
+    width: 90%;
+    height: 4em;
+    background-color:teal;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 0.2em;
+    box-shadow: 5px 2px 5px black;
+    padding-top: 4em;
+    color: lightsalmon;
+}
+    .input-container form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        color: teal;
+    }
+        .input-container form h2 {
+            position: absolute;
+            width: 15em;
+            height: 1.5em;
+            font-size: large;
+            top: 19%;
+            color: black;
+           
+
+        }
+        .input-container form button {
+         padding:0.3em;
+         width:4em;
+        }
+            .input-container form button:hover {
+              background-color:lightgreen;
+              color:black;
+            }
+.List {
+    width: 91%;
+    height: 24em;
+    margin-top: 3em;
+    background-color: teal;
+    border-radius:0.2em;
+    color: lightsalmon;
+    box-shadow: 5px 2px 5px black;
+    border:2px solid black;
+    overflow-y:scroll;
+}
+
+ form input
+ {
+     font-size:1em;
+     background-color:black;
+     color:bisque;
+     border-radius:0.2em;
+     border:none;
+     outline:none;
+     width:20em;
+     height:1.5em;
+     border-bottom:3px solid white;
+ }
+    form input:focus {
+        transition: all 0.5s ease-in-out;
+        border-bottom: 3px solid lightgreen;;
+    }
+    .List li {
+        transition: all 0.5s ease-in;
+        list-style: none;
+        color: black;
+        background-color: azure;
+        width: 20em;
+        height: 2.5em;
+        margin-top: 2em;
+        border-radius: 0.4em;
+        box-shadow: 10px 5px 5px black;
+        margin-left: 1em;
+        padding-top: 0.3em;
+        position: relative;
+    }
+
+.Deletebutton {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    color: teal;
+    background-color: black;
+    width: 2em;
+    border-radius: 0.5em;
+    position: absolute;
+    padding: 0.3em;
+    right: 15%;
+}
+    .Deletebutton:hover {
+        transition: all 0.2s ease-in-out;
+        transform: scaleX(1.1);
+        background-color: brown;
+    }
+    .Dbutton {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        color: teal;
+        background-color: black;
+        width: 2em;
+        border-radius: 0.5em;
+        position: absolute;
+        padding: 0.3em;
+        right: 1%;
+        transform: scaleX(1);
+    }
+    .Dbutton:hover {
+        transition: all 0.2s ease-in-out;
+        transform: scaleX(1.1);
+        background-color: lightgreen;
+    }
