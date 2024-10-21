@@ -8,6 +8,11 @@ function App() {
   
 
 
+
+
+
+
+
   
 
     return (
@@ -26,7 +31,7 @@ function App() {
                 <form>
                     <h2>Listeye eleman ekleyin</h2>
                     <input className="input" type="text"></input>
-                    <button onClick={addbutton} href="#" onSubmit="none" className="addbutton">Ekle</button>
+                    <button href="#"  className="addbutton">Ekle</button>
 
                 </form>
 
